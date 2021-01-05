@@ -1,0 +1,316 @@
+/*Body*/
+body{
+    padding-top: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*Formato Imagen de fondo. (cobrir todo el ancho/antura minima*/
+#imagenfondo{
+    background-image: url('Imagen3.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    padding-top: 240px;
+    color: #ffffff;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-attachment: fixed; scroll*/
+}
+
+/*Alineación texto del Section*/
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 0px auto; /*auto para centrar - 60px parte inferior*/
+    text-align: center;/*Centrar Texto*/
+}
+
+/*Estilo Boton Denuncia Aqui*/
+.btn {
+    font-size: 14px;
+    padding: 15px 30px;
+    min-width: 180px;
+    border-radius: 2px;
+    display: inline-block;
+
+  }
+.btn-light{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 2px solid #ffffff;
+      border-radius: 4px;
+}
+.btn span{
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+
+
+
+/*FORMULARIO */
+form{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    margin:0px 0px 5px 0px
+}
+#siniestro{
+
+    background-image: url('Imagen2.jpg'); 
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   text-align: left;
+    padding-top: 95px;
+    line-height: 200px
+
+}
+
+
+#formulario{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0 0.3);
+    overflow: hidden;
+    width: 400px;
+}
+
+
+
+
+#boton-enviar {
+    background-color: #34495E;
+    border: 2px solid #34495E;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/*------------------------------ footer -------------------------------------*/
+
+footer {
+    margin-top: 0px;
+    color: white;
+    padding-top: 50px;
+  }
+
+
+/*------------------------------SOBRE MI-----------------------------------*/
+
+/*LAYAOUT*/
+.main-container{
+    display: flex;
+
+}
+
+/*General*/
+
+h1,h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*Aside*/
+
+aside{
+    background-color: #34495E;
+    padding: 70px 20px 30px 20px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+
+
+
+
+aside section h4:first-child{ /*El Primer H2 de mi section de mi Aside*/
+    border-bottom: 2px solid #ffffff; /*Grosor, Color,Tipo Linea*/
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type:circle;/*UL sin punteo*/
+}
+
+
+
+/*Main*/
+
+main {
+    padding: 57px 10px 30px 10px;
+}
+
+main h2, h1{
+    font-weight: bold;
+
+}
+
+#imagenpersonal{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#imagenpersonal:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);
+    -o-transform:scale(1.2); 
+}
+
+.hero{
+    background-color: #DFE8F1;
+    box-shadow: 1px 3px 33px 20px #74B2CC inset; /*Sombra en contenedor: inset:sombre dentro de la caja.*/
+    padding: 15% 15%;
+    text-align: center;
+    padding: 10px 90px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.hero h3{
+    border-top: 2px solid #ffffff;
+    color:#AEB6BF ;
+}
+
+main article h3{
+    font-weight: bold;
+}
+main article ul{
+    font-weight: bold;
+    list-style-type: square;
+}
+
+.sobremi{
+    background-color: #E7EFF7;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border: 10px double;
+    padding: 10px;
+    border-color: #34495E;
+    margin-bottom: 10px;
+}
+.sobremi h2{
+    background-color: #E7EFF7;
+    padding-left: 35PX;
+}
+
+.sobremi p{
+    background-color: #E7EFF7;
+    text-align: justify;
+
+}
+
+.educacion{ /*Estilo caja Educación*/
+    background-color: #E7EFF7;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    border: 10px double;
+    padding: 10px;
+    border-color: #34495E;
+    margin-bottom: 10px;
+
+}
+.educacion h2{
+    background-color: #E7EFF7;
+    padding-left: 35PX;
+}
+
+.laboral{
+    background-color: #E7EFF7;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    border: 10px double;
+    padding: 10px;
+    border-color: #34495E;
+    margin-bottom: 10px;
+}
+.laboral h2{
+    background-color: #E7EFF7;
+    padding-left: 35PX;
+}
+
+.cursos{
+    background-color: #E7EFF7;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    border: 10px double;
+    padding: 10px;
+    border-color: #34495E;
+    margin-bottom: 10px;
+}
+.cursos h2{
+    background-color: #E7EFF7;
+    padding-left: 35PX;
+}
+
+/*Contacto:cumpleaños/nacionalidad*/
+
+
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario_grupo-correcto .formulario_validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario_grupo-correcto .formulario_input {
+	border: 3px solid  #1ed12d;
+}
+
+.formulario_grupo-incorrecto .formulario_label {
+	color: #bb2929;
+}
+
+.formulario_grupo-incorrecto .formulario_validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario_grupo-incorrecto .formulario_input {
+	border: 3px solid #bb2929;
+}
+
+
+/*----Mensaje al ser incorrecto--------*/
+.formulario_input-error { /*Oculto Mensaje*/
+	font-size: 12px;
+	margin-bottom: 0;
+    display: none;
+    color: #bb2929;
+}
+
+.formulario_input-error-activo { /*Activo mensaje*/
+    display: block;
+
+}
+
+label{
+    text-transform: uppercase;
+}
