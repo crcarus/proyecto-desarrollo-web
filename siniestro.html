@@ -46,7 +46,7 @@
     
     <section class="jumbotron">
         <div class="container-fluid" id="siniestro">
-            <h1 id="h1-siniestro">INGRESA TU SINIESTRO</h1>
+            <h1 id="h1-siniestro">INGRESA TU SINIESTRO AUTOMOTRIZ</h1>
         </div>
 
         <form class="container container-formulario" method="post" action="#" id="formulario">
@@ -124,57 +124,50 @@
             
             <div class="form-group"> <!-- Fecha Siniestro-->
                 <label for="fechasiniestro" class="control-label">Fecha Siniestro</label>
-                <input type="date" class="form-control" id="fechasiniestro" name="fechasiniestro" required="">
+                <input type="date" class="form-control" id="fechasiniestro" name="fechasiniestro" value="2021-01-01" >
             </div>        
+
+            <div class="formulario_mensaje" id="formulario_mensaje">
+				<p><b>Error:</b> Complete formulario. </p>
+            </div>
             
             <br>
-            <div class="form-group"> <!-- Submit Button -->
-                <button type="submit" class="btn btn-primary " id="boton-enviar" onclick="getData()" >
+            <div class="form-group formulario__grupo "> <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary boton-enviar" id="boton-enviar" onclick="getData()" >
                     Enviar
                 </button>
+                <p class="formulario_mensaje-exito" id="formulario_mensaje-exito">Formulario enviado exitosamente!</p>
             </div>     
             
         </form>
 
         <!--MODAL ALERT-->
      <!--Footer-->
-    <footer class="text-center footer-style bg-dark">
+     <footer class="text-center footer-style bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 footer-col">
-                    <h3>Carrera</h3>
-                    <p id="titulofooter">
-                        Ingeniero Civil Industrial <br />
-                        Universidad Mayor
-                    </p>
+                <div class="col-md-6 footer-col">
+                    <h3>INFORMACIÓN</h3>
+                    <a href="D:\cecar\Cristian Carus\PLATZI\Desarrollo WEB - ESCALAB\Clases\Index\Proyecto\Proyecto\index.html">
+                        Home
+                    </a>
+                    <br>
+                    <a href="D:\cecar\Cristian Carus\PLATZI\Desarrollo WEB - ESCALAB\Clases\Index\Proyecto\Proyecto\siniestro.html">
+                        Denuncia tu Siniestro
+                    </a>
+                    <br>
+                    <a href="D:\cecar\Cristian Carus\PLATZI\Desarrollo WEB - ESCALAB\Clases\Index\Proyecto\Proyecto\cristian.html">
+                        Acerca de mi
+                    </a>
                 </div>
-                <div class="col-md-4 footer-col">
-                    <h3>Mis redes</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa fa-fw fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#" class="btn-social btn-outline"><i
-                                    class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 footer-col">
-                    <h3>Trabajo Como PMO en Grupo MOK</h3>
-                    <p id="titulofooter">Tengo 1 año de experiencia en gestión de proyectos informaticos</p>
-                </div>
-            </div>
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">Derechos reservados © 2021 Copyright:
 
+                <div class="col-md-6 footer-col">
+                    <h3>CONTACTO</h3>
+                    <p id="titulofooter">+569 81752452 <br>cristian.carusm@gmail.com </p>
+                </div>
             </div>
             <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">Derechos reservados © 2021 Copyright</div>
         </div>
     </footer>
 
