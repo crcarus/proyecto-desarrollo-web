@@ -6,7 +6,7 @@ body{
 
 
 /*--------------------Index-----------------------*/
-/*INDEX: Imagen de fondo (cubrir todo el ancho/antura minima)*/
+/*INDEX: Imagen de fondo (cubrir todo el ancho/antura minima) */
 #imagenfondo{
     background-image: url('Imagen3.jpg');
     min-height: 100vh;
